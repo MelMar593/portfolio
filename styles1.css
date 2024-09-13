@@ -1,0 +1,67 @@
+body{
+  background-image:url(img/white_brick.png) ;  
+}
+ol, ul, li{
+    list-style: none ; display: flex ; justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.contenedor{/*colocamos un espacio entre los elementos verticalmente*/
+display: flex; flex-direction: column; gap: 1em;
+}
+header{
+    background-color: rgb(95, 173, 209);display: flex; justify-content: space-between; align-items: center;
+}
+header ai{
+    padding: 0.5em; font-size: 2em; color: rgb(255, 255, 255);
+}
+header nav ul{
+    display: flex; margin: 0;
+}
+header nav ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: 600; fill: black;
+}
+header nav ul li a:hover{
+    color: rgb(241, 161, 11);
+    font-weight: 600;
+    background-color: rgba(27, 41, 170, 0.486);padding: 1.4em; border: 0.3em;
+} 
+@media only screen and (max-width: 768px) {
+    .parrafo1 {
+    font-size: 200px;
+    }
+    
+}
+.sección-1{
+    display: flex; justify-content: center; align-items: center;padding: 2em;
+
+}
+    
+.bottom{
+    display: flex;align-items: center;gap: 20px;
+
+}
+.btn{
+    cursor: pointer;
+border-radius: 10px;
+background-color: rgb(241, 161, 11); border: none;
+}
+.sección-2 img{
+    width: 100%; border-radius: 15px;
+}
+.acerca-de{
+    width: 100%;
+}
+.acerca-imagen img{
+    width: 200px; stop
+}
+#frase{
+    font-size: 35px;
+    
+
+
+}
+
+    
